@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "CSClarity";
+  src: url("../../public/cs-clarity-regular.woff2");
+}
+
+@font-face {
+  font-family: "CSClarity-Bold";
+  src: url("../../public/cs-clarity-bold.woff2");
+}
