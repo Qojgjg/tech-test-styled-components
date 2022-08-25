@@ -44,8 +44,8 @@ const CSTheme: DefaultTheme = {
     md: "8px",
   },
   boxShadow: {
-    sm: "0 0.1rem 0.5rem rgba(0, 0, 0, 0.16)",
-    md: "0 0.5rem 0.75rem rgba(0, 0, 0, 0.16)",
+    md: "0 0.1rem 0.5rem rgba(0, 0, 0, 0.16)",
+    lg: "0 0.5rem 0.75rem rgba(0, 0, 0, 0.16)",
   },
   breakpoints: {
     sm: `(min-width: ${screenSizes.sm})`,

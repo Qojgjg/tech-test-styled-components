@@ -13,7 +13,6 @@ body {
   min-height: 100vh;
   background-color: ${({ theme }) => theme.colours.gallery};
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
   margin: ${({ theme }) => theme.spacing.xs};
   padding: ${({ theme }) => theme.spacing.xs};
@@ -26,7 +25,6 @@ body {
   @media (${({ theme }) => theme.breakpoints.lg}) {
     margin: ${({ theme }) => theme.spacing.lg};
     padding: ${({ theme }) => theme.spacing.lg};
-    background-color: aqua;
   }
 
   @media (${({ theme }) => theme.breakpoints.lg}) {
